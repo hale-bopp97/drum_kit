@@ -5,12 +5,7 @@ var numOfBtns = document.querySelectorAll('.drum').length;
 for (var i = 0; i < numOfBtns; i++) {
 
     document.querySelectorAll('.drum')[i].addEventListener('click', function () {
-        // alert('key was pressed...');
-
         // this.style.color = 'white';
-        // var audio = new Audio('./sounds/tom-1.mp3');
-
-        // audio.play();
 
         var btnInnerHTML = this.innerHTML;
 
@@ -52,7 +47,7 @@ for (var i = 0; i < numOfBtns; i++) {
         
             default:
                 console.log(btnInnerHTML);
-                
+
         }
 
     });
