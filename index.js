@@ -5,7 +5,8 @@ var snare = './sounds/snare.mp3';
 var tom1  = './sounds/tom-1.mp3';
 var tom2  = './sounds/tom-2.mp3';
 var tom3  = './sounds/tom-3.mp3';
-var tom4  = './sounds/tom-4.mp3';
+// var tom4  = './sounds/tom-4.mp3';
+var tom4  = './sounds/086424_small-realpoot106wav-37403.mp3'
 
 var numOfBtns = document.querySelectorAll('.drum').length;
 
